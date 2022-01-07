@@ -14,6 +14,9 @@
     <ProjectReference Include="..\RoodBot.Data\RoodBot.Data.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\RoodBot.Common\RoodBot.Common.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Repositories\" />

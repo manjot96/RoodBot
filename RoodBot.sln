@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoodBot.WebApi", "RoodBot.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoodBot.Data", "RoodBot.Data\RoodBot.Data.csproj", "{B3AB9768-6364-4B64-8603-4A53AFF11724}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoodBot.Common", "RoodBot.Common\RoodBot.Common.csproj", "{D4AED94F-C466-4B55-A9C0-AAA30AEA7323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AED94F-C466-4B55-A9C0-AAA30AEA7323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AED94F-C466-4B55-A9C0-AAA30AEA7323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AED94F-C466-4B55-A9C0-AAA30AEA7323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AED94F-C466-4B55-A9C0-AAA30AEA7323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

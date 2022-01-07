@@ -4,12 +4,8 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace RoodBot.Data.Models
 {
-	public class Game
+	public class Game : Entity
 	{
-		[BsonId]
-		[BsonRepresentation(BsonType.ObjectId)]
-		public string Id { get; set; }
-
 		public string State { get; set; }
 
 		public int GamePlayerTurnId { get; set; }
