@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1700.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoodBot.WebApi", "RoodBot.WebApi\RoodBot.WebApi.csproj", "{F1B52661-3CC2-4C54-A52D-A9DA6A55A77E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoodBot.Data", "RoodBot.Data\RoodBot.Data.csproj", "{B3AB9768-6364-4B64-8603-4A53AFF11724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F1B52661-3CC2-4C54-A52D-A9DA6A55A77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B52661-3CC2-4C54-A52D-A9DA6A55A77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B52661-3CC2-4C54-A52D-A9DA6A55A77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AB9768-6364-4B64-8603-4A53AFF11724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
